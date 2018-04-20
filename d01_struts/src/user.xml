@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="p4" extends="struts-default">
+        <action name="addUser" class="com.cll.action.User1Action" method="saveUser">
+            <param name="age">12</param>
+            <param name="name">张三</param>
+        </action>
+        <action name="registerUser" class="com.cll.action.User1Action" method="registerUser">
+        </action>
+        <action name="registerUser2" class="com.cll.action.User1Action" method="registerUser2"></action>
+        <action name="registerUser3" class="com.cll.action.User2Action" method="registerUser"></action>
+    </package>
+
+
+</struts>
