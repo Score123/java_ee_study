@@ -25,8 +25,9 @@ hs_err_pid*
 .myeclipse/
 .settings/
 .idea/
+out/
 
 # idea
-.iml
+*.iml
 
-.bak
+*.bak
