@@ -6,11 +6,9 @@
 <hibernate-mapping package="com.cll.a_hello">
     <class name="User" table="t_user">
         <id name="id" column="id" length="255">
-            <generator class="uuid"></generator>
+            <generator class="native"></generator>
         </id>
-
-
+        <property name="username" column="username" type="java.lang.String"></property>
+        <property name="password" column="password" type="java.lang.String"></property>
     </class>
-
-
 </hibernate-mapping>
